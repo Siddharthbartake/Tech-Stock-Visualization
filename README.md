@@ -1,3 +1,4 @@
+markdown
 # Stock Market Analysis for Tech Stocks
 
 This project involves analyzing the stock market performance of major tech companies using various financial metrics and statistical methods. The analysis includes exploratory data analysis, statistical modeling, and risk assessment. The main focus is on predicting future stock prices, assessing volatility, and estimating the Value at Risk (VaR) for each stock.
@@ -12,7 +13,6 @@ This project involves analyzing the stock market performance of major tech compa
 7. [Usage](#usage)
 8. [Results](#results)
 9. [Contributing](#contributing)
-10. [License](#license)
 
 ## Project Overview
 The goal of this project is to analyze the historical performance of tech stocks and forecast their future performance using Python. The analysis covers:
@@ -66,5 +66,27 @@ The project is organized into the following sections:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Siddharthbartake/stock-market-analysis-for-tech-stocks.git
+   git clone https://github.com/your-username/stock-market-analysis-for-tech-stocks.git
    cd stock-market-analysis-for-tech-stocks
+   ```
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+1. Run the Jupyter notebook:
+   ```bash
+   jupyter notebook Stock_Market_Analysis_for_Tech_Stocks.ipynb
+   ```
+2. Follow the instructions in the notebook to execute each cell step by step.
+
+## Results
+- Google's stock exhibited a stable performance based on the simulations.
+- Starting price: $622.05
+- Mean final price after 10,000 simulations: $623.36
+- VaR at a 99% confidence level indicated a risk of $18.38 for every stock.
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request.
+
